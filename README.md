@@ -13,16 +13,16 @@ Harpocration Lexicon can be searched like any other modern dictionary.
 
 ## USAGE
 
-Clone the Github repository `git clone https://github.com/proteusx/Harpocration-For-GoldenDict.git`
+Clone the Github repository `git clone https://github.com/proteusx/Harpocration.git`
 
 You need to have available the dictionary text.  If not, provided that you have
 the TLG CDRO, you can extract the text with the utility [tlg2u](https://github.com/proteusx/tlg2u)
 or [proteus](https://github.com/proteusx/proteus)
 
-Edit the line 7  of the script `harpocration.pl` and set the variable $text_file
-to point to the lexicon text file.
+Edit the line 7  of the script `harpocration.pl` and set the variable
+`$text_file` to point to the lexicon text file.
 
-Run the script `rpocration.pl`
+Run the script `harpocration.pl`
 
 If everything is in order the file **`dictionary/harpocration.dsl`** should be produced.  Point
 GoldenDict to this folder and the Harpocration lexicon is ready to search.  Alternatively you may
